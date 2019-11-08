@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body class="body" onload="loadPage()">
+
+<div class="container">
+    <div class="middle">
+        <div class="inner">
+            <h1  id="display" >0</h1>
+            <button onclick="numberButtons(7)" id="numberButton7">7</button>
+            <button onclick="numberButtons(8)" id="numberButton8">8</button>
+            <button onclick="numberButtons(9)" id="numberButton9">9</button>
+            <button id="calculateButtonMultiply" onclick="calculateMultiply()">x</button>
+            <button onclick="numberButtons(4)" id="numberButton4">4</button>
+            <button onclick="numberButtons(5)" id="numberButton5">5</button>
+            <button onclick="numberButtons(6)" id="numberButton6">6</button>
+            <button id="calculateButtonMinus" onclick="calculateMinus()">-</button>
+            <button onclick="numberButtons(1)" id="numberButton1">1</button>
+            <button onclick="numberButtons(2)" id="numberButton2">2</button>
+            <button onclick="numberButtons(3)" id="numberButton3">3</button>
+            <button id="calculateButtonPlus" onclick="calculatePlus()">+</button>
+            <button onclick="numberButtons(0)" id="numberButton0">0</button>
+            <button id="clear" onclick="clearDisplay()">AC</button>
+            <button id="calculateAnswer" onclick="calculateAnswer()">=</button>
+            <button id="calculateButtonDividedBy" onclick="calculateDividedBy()">:</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    background-color: dimgrey;
+}
+
+.container {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    width: 345px;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+}
+
+
+#numberButton0, #numberButton1, #numberButton2, #numberButton3, #numberButton4, #numberButton5, #numberButton6, #numberButton7, #numberButton8, #numberButton9 {
+    background-color: black;
+}
+
+button {
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+#orangeButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculateButtonPlus, #calculateButtonMinus, #calculateButtonMultiply, #calculateButtonDividedBy, #calculateAnswer, #clear {
+    background-color: aqua;
+    color: black;
+}
+
+#display {
+    margin-right: 20px;
+    text-align: right;
+}
